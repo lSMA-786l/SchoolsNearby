@@ -12,7 +12,7 @@
 .next 
 out 
 dist 
-
+sss
 # misc 
 .DS_Store 
 npm-debug.log* 
