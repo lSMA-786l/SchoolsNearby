@@ -1,0 +1,37 @@
+/* Design Tokens for School Management Editorial UI */
+:root {
+  --color-bg: #0B0D12;
+  --color-ink: #0B0D12;
+  --color-text: #FFFFFF;
+  --color-muted: #B8C0CC;
+  --color-accent: #FACC15;
+  --color-accent2: #EAB308;
+  --color-surface0: rgba(255,255,255,.04);
+  --color-surface1: rgba(255,255,255,.08);
+  --color-border: rgba(255,255,255,.1);
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 9999px;
+  --shadow-soft: 0 6px 16px rgba(0,0,0,.25);
+  --shadow-lift: 0 16px 40px rgba(0,0,0,.35);
+  --type-display: clamp(40px,6vw,72px);
+  --type-h1: clamp(32px,4.5vw,56px);
+  --type-body: clamp(16px,1.2vw,18px);
+  --grain: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4"/></filter><rect width="400" height="400" filter="url(%23grain)"/></svg>');
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0B0D12;
+    --color-text: #FFFFFF;
+    --color-accent: #FACC15;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #FFFFFF;
+    --color-text: #0B0D12;
+    --color-accent: #FACC15;
+  }
+}

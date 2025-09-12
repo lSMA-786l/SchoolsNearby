@@ -20,8 +20,6 @@ export default function AddSchool() {
           formData.append(key, value);
         }
       });
-      formData.append("number", data.number);
-      formData.append("email", data.email);
       const res = await fetch('/api/addSchool', {
         method: 'POST',
         body: formData
