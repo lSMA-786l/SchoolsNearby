@@ -1,5 +1,7 @@
 # Next.js + MySQL School Search Mini Project
 
+#LINK - https://schools-nearby.vercel.app
+
 ## Overview
 A fully responsive school search platform with a modern black-and-white theme, styled using TailwindCSS via CDN. Data is stored in MySQL, and school images are saved in `/public/schoolImages`.
 
